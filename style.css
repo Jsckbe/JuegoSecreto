@@ -7,11 +7,16 @@
 
 body {
     background: linear-gradient(#63388b 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
-    background-image: url(img/cielo.jpg);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(img/cielo.jpg);
+    display: grid;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
 }
 
 
@@ -28,6 +33,8 @@ body::before {
 }
 
 .container {
+    /*width: 1200px;
+    height: 600px;*/
     width: 1200px;
     height: 600px;
     display: flex;
@@ -110,3 +117,4 @@ button {
     font-size: 32px;
     font-weight: 400;
 }
+
