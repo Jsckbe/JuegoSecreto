@@ -61,6 +61,10 @@ body::before {
     padding: 3rem;
 }
 
+.container__boton:hover {
+    background: #45d0ec
+}
+
 .container__boton {
     border-radius: 16px;
     background: #1875E8;
